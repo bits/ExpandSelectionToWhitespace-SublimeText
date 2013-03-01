@@ -1,0 +1,91 @@
+[
+    {
+        "id": "selection",
+        "children":
+        [
+            {
+                "caption": "Expand Selection to Whitespace",
+                "id": "expand_selection_to_whitespace",
+                "command": "expand_selection_to_whitespace"
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Expand Selection to Whitespace",
+                        "children":
+                        [
+                            // README
+                            {
+                                "caption": "README",
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Expand Selection to Whitespace/README.md"}
+                            },
+                            { "caption": "-" },
+
+                            // Keybindings - Default
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Expand Selection to Whitespace/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Expand Selection to Whitespace/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Expand Selection to Whitespace/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                }
+                            },
+
+                            // Keybindings - User
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                }
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

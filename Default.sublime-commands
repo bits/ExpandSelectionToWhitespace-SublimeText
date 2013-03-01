@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Expand Selection to Whitespace",
+        "command": "expand_selection_to_whitespace"
+    }
+]

@@ -1,0 +1,10 @@
+# Compiled Python files
+*.pyc
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Sublime Text 2 projects and workspaces
+*.sublime-workspace
+*.sublime-project

@@ -1,0 +1,3 @@
+[
+	{ "keys": ["ctrl+shift+x"], "command": "expand_selection_to_whitespace" }
+]

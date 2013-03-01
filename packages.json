@@ -1,0 +1,20 @@
+{
+	"schema_version": "1.2",
+	"packages": [
+		{
+			"name": "Expand Selection to Whitespace",
+			"description": "Expand the selection to the whitespace that surrounds the cursor(s) or selection(s). Ctrl+Shift+X / Cmd+Shift+X by default",
+			"author": "Paul Sarena",
+			"homepage": "https://github.com/bits/ExpandSelectionToWhitespace-SublimeText",
+			"last_modified": "2013-02-28 16:00:00",
+			"platforms": {
+				"*": [
+					{
+						"version": "1.0.0",
+						"url": "https://nodeload.github.com/bits/ExpandSelectionToWhitespace-SublimeText/zip/1.0.0"
+					}
+				]
+			}
+		}
+	]
+}
