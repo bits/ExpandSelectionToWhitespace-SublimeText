@@ -1,13 +1,10 @@
-Expand Selection to Whitespace
-------------------------------
-
-Windows and Linux: Ctrl+Shift+X
-Mac OS X:          Command+Shift+X
-
-
 Expand the selection to touch up against the whitespace that surrounds the
 cursor(s) or selection(s). Each selection is extended to (but not including) the
 closest space, tab, newline, or Unicode spacing character around it.
+
+
+	Windows and Linux: Ctrl+Shift+X
+	Mac OS X:          Command+Shift+X
 
 
 Usage

@@ -3,11 +3,11 @@ Expand Selection to Whitespace
 
 #### A [Sublime Text](http://www.sublimetext.com/) plugin that helps you go faster
 
-Expand the selection to touch up against the whitespace that surrounds the cursor(s) or selection(s).  Bound by default to <kbd>Ctrl+Shift+X</kbd> on Windows and Linux, and <kbd>⇧⌘X</kbd> on Mac.  
-
-Each selection is extended to (but not including) the closest space, tab, newline, or Unicode spacing character around it.
+Expand selection to touch up against the closest space, tab, newline, or Unicode spacing character surrounding the cursor(s) or selection(s).
 
 Sublime Text's "Expand Selection to Word" (first press of <kbd>Ctrl+D</kbd> / <kbd>⌘D</kbd>) is a really fast way to select the word you're on.  But sometimes you want more than the simple word, you want everything up to the space before and after where you are.  Now you can do that.
+
+Bound by default to <kbd>Ctrl+Shift+X</kbd> on Windows and Linux, and <kbd>⇧⌘X</kbd> on Mac. 
 
 #### It turns out this is really handy
 
@@ -29,7 +29,7 @@ The plugin supplies the `expand_selection_to_whitespace` command, which you can 
 
 
 
-Install using Package Control (recommended)
+Install using Package Control
 -------------------------------------------
 
 With the [Package Control plugin](http://wbond.net/sublime_packages/package_control) installed:
