@@ -1,5 +1,4 @@
-Expand Selection to Whitespace
-==============================
+# [Expand Selection to Whitespace](https://github.com/bits/ExpandSelectionToWhitespace-SublimeText)
 
 #### A [Sublime Text](http://www.sublimetext.com/) plugin that helps you go faster
 
@@ -30,7 +29,7 @@ The plugin supplies the `expand_selection_to_whitespace` command, which you can 
 
 
 Install using Package Control
--------------------------------------------
+-----------------------------
 
 With the [Package Control plugin](http://wbond.net/sublime_packages/package_control) installed:
 
