@@ -1,6 +1,7 @@
-Expand the selection to touch up against the whitespace that surrounds the
-cursor(s) or selection(s). Each selection is extended to (but not including) the
-closest space, tab, newline, or Unicode spacing character around it.
+Expand the selection to touch up against the whitespace that surrounds
+the cursor(s) or selection(s). Each selection is extended to (but not
+including) the closest space, tab, newline, or Unicode spacing
+character around it.
 
 
 	Windows and Linux: Ctrl+Shift+X
@@ -10,14 +11,14 @@ closest space, tab, newline, or Unicode spacing character around it.
 Usage
 -----
 
-	Quickly lazy-select text: Select partway into the first and last words and
-	hit the shortcut.  This gives you much larger targets for the start and end
-	of your selection, so you don't have to go slowly and precisely to get the
-	pointer or cursor right at the tiny sweet spot.  It's surprising what a
-	difference this makes.
+	Quickly lazy-select text: Select partway into the first and last
+	words and hit the shortcut.  This gives you much larger targets
+	for the start and end of your selection, so you don't have to go
+	slowly and precisely to get the pointer or cursor right at the
+	tiny sweet spot.  It's surprising what a difference this makes.
 
-	Paths: /home/user/project/awesome ← Place the cursor anywhere in the path
-	        and get the whole thing with a keystroke
+	Paths: /home/user/project/awesome ← Place the cursor anywhere in
+	       the path and get the whole thing with a keystroke
 
 	Filenames: access_log-2099-12-31.tbz2
 
@@ -25,23 +26,24 @@ Usage
 
 	Some coding styles: self.expand_region_to_whitespace(region)
 
-	When you made a selection, but missed the first few characters — grab them
-	instead of repeating yourself
+	When you made a selection, but missed the first few characters —
+	grab them instead of repeating yourself
 
-	Selecting vertically aligned text or a column — Perform a narrow column
-	selection (Ctrl+Alt+Up/Down on Windows/Linux, Ctrl+Shift+Up/Down on Mac) and
-	widen each line's selection out to the whitespace with a flick of the
-	fingers
+	Selecting vertically aligned text or a column — Perform a narrow
+	column selection (Ctrl+Alt+Up/Down on Windows/Linux,
+	Ctrl+Shift+Up/Down on Mac) and widen each line's selection out to
+	the whitespace with a flick of the fingers
 
-	You'll find "Expand Selection to Whitespace" ready to do your bidding in the
-	Selection menu, the Command Palette, and via key binding.
+	You'll find "Expand Selection to Whitespace" ready to do your
+	bidding in the Selection menu, the Command Palette, and via key
+	binding.
 
 
 Use a different key binding
 ---------------------------
 
-	The plugin supplies the `expand_selection_to_whitespace` command, which you
-	can bind to your preferred keyboard shortcut in your `Preferences → Key
-	Bindings – User` file by adding something like:
+	The plugin supplies the `expand_selection_to_whitespace` command,
+	which you can bind to your preferred keyboard shortcut in your
+	`Preferences → Key Bindings – User` file by adding something like:
 
 	{ "keys": ["ctrl+shift+x"], "command": "expand_selection_to_whitespace" }
