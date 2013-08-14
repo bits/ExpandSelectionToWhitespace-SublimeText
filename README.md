@@ -2,11 +2,13 @@
 
 #### A [Sublime Text](http://www.sublimetext.com/) plugin that helps you go faster
 
+Compatible with Sublime Text 2 and 3.
+
 Expand selection to touch up against the closest space, tab, newline, or Unicode spacing character surrounding the cursor(s) or selection(s).
 
 Sublime Text's "Expand Selection to Word" (first press of <kbd>Ctrl+D</kbd> / <kbd>⌘D</kbd>) is a really fast way to select the word you're on.  But sometimes you want more than the simple word, you want everything up to the space before and after where you are.  Now you can do that.
 
-Bound by default to <kbd>Ctrl+Shift+X</kbd> on Windows and Linux, and <kbd>⇧⌘X</kbd> on Mac. 
+Bound by default to <kbd>Ctrl+Shift+X</kbd> on Windows and Linux, and <kbd>⇧⌘X</kbd> on Mac.
 
 #### It turns out this is really handy
 
