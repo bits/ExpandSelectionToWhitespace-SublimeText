@@ -30,8 +30,10 @@ The plugin supplies the `expand_selection_to_whitespace` command, which you can 
 
 
 
-Install using Package Control (recommended)
--------------------------------------------
+Installation
+------------
+
+## Install using Package Control (recommended)
 
 In Sublime Text 2 or 3, with the [Package Control plugin](http://wbond.net/sublime_packages/package_control) installed:
 
@@ -42,8 +44,7 @@ In Sublime Text 2 or 3, with the [Package Control plugin](http://wbond.net/subli
 When you use the Package Control plugin to install a plugin, it is automatically updated when a new version is available.
 
 
-Install manually by cloning the git repository
-----------------------------------------------
+## Install manually by cloning the git repository
 
 Clone the repository right into your Sublime Text "Packages" directory. Find yours with `Sublime Text → Preferences → Browse Packages`. Change to that directory and clone:
 
@@ -52,8 +53,7 @@ Clone the repository right into your Sublime Text "Packages" directory. Find you
 To later update to the latest:,`git pull origin master` from within the "Packages/Expand Selection To Whitespace" directory.
 
 
-Install manually from a zip archive
------------------------------------
+## Install manually from a zip archive
 
 #### For Sublime Text 3 (ST3)
 * Download the [latest zip archive](https://github.com/bits/ExpandSelectionToWhitespace-SublimeText/archive/master.zip)
@@ -61,7 +61,6 @@ Install manually from a zip archive
 * Move it into your Sublime Text "Installed Packages" directory. Find yours with `Sublime Text → Preferences → Browse Packages`, then go up one directory level to find the `Installed Packages` directory.
 
 Repeat this procedure in the future to update to the latest version.
-
 
 #### For Sublime Text 2 (ST2)
 * Download the [latest zip archive](https://github.com/bits/ExpandSelectionToWhitespace-SublimeText/archive/master.zip)
