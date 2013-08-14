@@ -5,8 +5,9 @@
 .DS_Store
 Desktop.ini
 
-# Sublime Text 2 projects and workspaces
+# Sublime Text projects and workspaces
 *.sublime-workspace
 *.sublime-project
 
+# private notes
 notes.md
