@@ -15,7 +15,6 @@ Bound by default to <kbd>Ctrl+Shift+X</kbd> on Windows and Linux, and <kbd>⇧�
 * **Filenames**: access_log-2099-12-31.tbz
 * **URLs**: https://github.com/bits/ExpandSelectionToWhitespace-SublimeText
 * **Some coding styles**: self.expand\_region\_to\_whitespace(region)
-* When you made a selection, but missed the first few characters — **grab them instead of repeating yourself**
 * Selecting **vertically aligned text** or a column — Perform a narrow [column selection](http://www.sublimetext.com/docs/3/column_selection.html) <kbd>Ctrl+Alt+Up</kbd>/<kbd>Down</kbd> on Windows/Linux, <kbd>Ctrl+Shift+Up</kbd>/<kbd>Down</kbd> on Mac and widen each line's selection out to the whitespace with a flick of the fingers
 
 You'll find "Expand Selection to Whitespace" ready to do your bidding in the Selection menu, the Command Palette, and via key binding.
