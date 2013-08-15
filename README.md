@@ -1,20 +1,18 @@
 # [Expand Selection to Whitespace](https://github.com/bits/ExpandSelectionToWhitespace-SublimeText)
 
-#### A [Sublime Text](http://www.sublimetext.com/) plugin that helps you go faster
-
-Compatible with Sublime Text 2 and 3.
+#### A plugin that helps you go faster with [Sublime Text](http://www.sublimetext.com/)
 
 Expand selection to touch up against the closest space, tab, newline, or Unicode spacing character surrounding the cursor(s) or selection(s).
 
 Sublime Text's "Expand Selection to Word" (first press of <kbd>Ctrl+D</kbd> / <kbd>⌘D</kbd>) is a really fast way to select the word you're on. But sometimes you want more than the simple word, you want everything up to the space before and after where you are. Now you can do that.
 
-Bound by default to <kbd>Ctrl+Shift+X</kbd> on Windows and Linux, and <kbd>⇧⌘X</kbd> on Mac.
+Bound by default to <kbd>Ctrl+Shift+X</kbd> on Windows and Linux, and <kbd>⇧⌘X</kbd> on Mac. Compatible with Sublime Text 2 (ST2) and Sublime Text 3 (ST3).
 
 #### It turns out this is really handy
 
 * **Quickly lazy-select text** — Select partway into the first and last words and hit the shortcut. This gives you much larger targets for the start and end of your selection, so you don't have to go slowly and precisely to get the pointer or cursor right at the tiny sweet spot. It's surprising what a difference this makes.
 * **Paths**: /home/user/project/awesome ← Place the cursor anywhere in the path and get the whole thing with a keystroke
-* **Filenames**: access_log-2099-12-31.tbz2
+* **Filenames**: access_log-2099-12-31.tbz
 * **URLs**: https://github.com/bits/ExpandSelectionToWhitespace-SublimeText
 * **Some coding styles**: self.expand\_region\_to\_whitespace(region)
 * When you made a selection, but missed the first few characters — **grab them instead of repeating yourself**
@@ -69,6 +67,21 @@ Repeat this procedure in the future to update to the latest version.
 * Move the directory into your Sublime Text "Packages" directory. Find yours with `Sublime Text → Preferences → Browse Packages`
 
 Repeat this procedure in the future to update to the latest version.
+
+
+
+Also known as
+-------------
+I wrote this after trying a few web searches for a package to do this, and finding that there wasn't anything like it available.  With the hope of helping anyone else following the same search trail find their way:
+
+* Expand selection to spaces in Sublime Text 3
+* Grow selection to whitespace
+* Sublime Text selection expansion
+* Extend selection to first and last non-whitespace character around Sublime Text cursor
+* Select up to surrounding spacing characters
+* Select until space
+* Select like vim's big WORD movement in visual mode
+
 
 
 Contact
