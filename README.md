@@ -6,13 +6,13 @@ Expand the selection to touch up against the closest space, tab, newline, or Uni
 
 Sublime Text's "Expand Selection to Word" (first press of <kbd>Ctrl+D</kbd> / <kbd>⌘D</kbd>) is a really fast way to select the word you're on. But sometimes you want more than the simple word, you want everything up to the space before and after where you are. Now you can do that.
 
-Bound by default to <kbd>Ctrl+Shift+X</kbd> on Windows and Linux, and <kbd>⇧⌘X</kbd> on Mac. Compatible with Sublime Text 2 (ST2) and Sublime Text 3 (ST3).
+Bound by default to <kbd>Ctrl+Shift+X</kbd> on Windows and Linux, and <kbd>⇧⌘X</kbd> on Mac. Works well with Sublime Text 4, 3 and 2.
 
 #### It turns out this is really handy
 
 * **Quickly lazy-select text** — Select partway into the first and last words and hit the shortcut. This gives you much larger targets for the start and end of your selection, so you don't have to go slowly and precisely to get the pointer or cursor right at the tiny sweet spot. It's surprising what a difference this makes.
 * **Paths**: /home/user/project/awesome ← Place the cursor anywhere in the path and get the whole thing with a keystroke
-* **Filenames**: access_log-2099-12-31.tbz
+* **Filenames**: access_log-2099-12-31.zstd
 * **URLs**: https://github.com/bits/ExpandSelectionToWhitespace-SublimeText
 * **Some coding styles**: self.expand\_region\_to\_whitespace(region)
 * Selecting **vertically aligned text** or a column — Perform a narrow [column selection](http://www.sublimetext.com/docs/3/column_selection.html) <kbd>Ctrl+Alt+Up</kbd>/<kbd>Down</kbd> on Windows/Linux, <kbd>Ctrl+Shift+Up</kbd>/<kbd>Down</kbd> on Mac and widen each line's selection out to the whitespace with a flick of the fingers
@@ -32,7 +32,7 @@ Installation
 
 ### Install using Package Control (recommended)
 
-In Sublime Text 2 or 3, with the [Package Control plugin](http://wbond.net/sublime_packages/package_control) installed:
+In Sublime Text 2, 3, or 4 with the [Package Control plugin](http://wbond.net/sublime_packages/package_control) installed:
 
 1. Bring up the **Command Palette** with <kbd>Control+Shift+P</kbd> on Windows and Linux or <kbd>⇧⌘P</kbd> on Mac.
 2. Select **"Package Control: Install Package"**, and wait while Package Control fetches the latest package list.
@@ -52,7 +52,7 @@ To later update to the latest:,`git pull origin master` from within the "Package
 
 ### Install manually from a zip archive
 
-#### For Sublime Text 3 (ST3)
+#### For Sublime Text 3 and 4
 * Download the [latest zip archive](https://github.com/bits/ExpandSelectionToWhitespace-SublimeText/archive/master.zip)
 * Rename the .zip file to `Expand Selection to Whitespace.sublime-package`
 * Move it into your Sublime Text "Installed Packages" directory. Find yours by going to `Sublime Text → Preferences → Browse Packages`, and then going up one directory level to find the "Installed Packages" directory.
@@ -73,7 +73,7 @@ Also known as
 -------------
 This plugin was written after trying a few web searches for a package to do this, but finding that there wasn't anything like it available.  With the hope of helping anyone else following the same search trail find their way:
 
-* Expand selection to spaces in Sublime Text 3
+* Expand selection to spaces in Sublime Text
 * Select to word boundaries
 * Grow selection to whitespace
 * Sublime Text selection expansion
